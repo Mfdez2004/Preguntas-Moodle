@@ -1,5 +1,5 @@
     //Este primer script oculará todos los elementos html cuyo nombre sea "elquesoculta"
-function DiagOrbStatic(conf, canvasR, electronElegido){
+function diagOrbStatic(conf, canvasR, electronElegido){
     $(document).ready(function() {
         jQuery("*[name='elqueseoculta']").hide();
         jQuery("*[class='questiontestslink']").hide();
