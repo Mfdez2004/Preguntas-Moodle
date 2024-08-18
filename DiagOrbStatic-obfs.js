@@ -1,1 +1,264 @@
-(function(_0x4fe937,_0x3cd21b){const _0x28c68=_0x5d1f,_0x40e9e0=_0x4fe937();while(!![]){try{const _0x4697d0=-parseInt(_0x28c68(0x1ef))/0x1*(parseInt(_0x28c68(0x1f9))/0x2)+parseInt(_0x28c68(0x1fa))/0x3+parseInt(_0x28c68(0x1e3))/0x4*(parseInt(_0x28c68(0x1e4))/0x5)+-parseInt(_0x28c68(0x1f2))/0x6*(parseInt(_0x28c68(0x1f0))/0x7)+parseInt(_0x28c68(0x1fe))/0x8*(parseInt(_0x28c68(0x1f1))/0x9)+-parseInt(_0x28c68(0x1eb))/0xa*(parseInt(_0x28c68(0x1f3))/0xb)+parseInt(_0x28c68(0x1ed))/0xc;if(_0x4697d0===_0x3cd21b)break;else _0x40e9e0['push'](_0x40e9e0['shift']());}catch(_0xf26933){_0x40e9e0['push'](_0x40e9e0['shift']());}}}(_0xc0ff,0xedfc1));function DiagOrbStatic(_0x392326,_0x150a11,_0x51c303){$(document)['ready'](function(){const _0x201c57=_0x5d1f;jQuery('*[name=\x27elqueseoculta\x27]')[_0x201c57(0x1f6)](),jQuery('*[class=\x27questiontestslink\x27]')[_0x201c57(0x1f6)](),jQuery(_0x201c57(0x1ea))[_0x201c57(0x1f6)]();var _0x705564=0x182f5eb1300,_0x34ab68=0x75cd78800,_0x4ef1c1=Date[_0x201c57(0x1f8)]()-_0x705564,_0x590583=parseInt(jQuery('#t1')[_0x201c57(0x1f7)]()),_0x47225a=_0x590583-_0x34ab68;if(_0x4ef1c1>_0x590583||_0x4ef1c1<_0x47225a||jQuery('#t1')[_0x201c57(0x1e2)]<0x1||isNaN(parseInt(jQuery(_0x201c57(0x1f5))['text']())))throw _0x201c57(0x1e0);else{var _0x58a79c=[];const _0x4ac1e9=[0x0,0xa,0x64,0x6e,0xc8,0xd2,0xfa,0x104,0x12c,0x136,0x190,0x19a,0x1f4,0x1fe,0x226,0x230,0x258,0x262,0x2bc,0x2c6,0x2ee,0x2f8,0x320,0x32a,0x352,0x35c,0x384,0x38e,0x3e8,0x3f2],_0x3435c2=_0x392326[_0x201c57(0x1e2)],_0x4f3efe=0x19,_0x438dff=0x64,_0x3af84b=new fabric['Text']('1s',{'top':_0x438dff-0x28,'left':0xa+_0x4f3efe,'stroke':'black','strokeUniform':!![],'fontFamily':'Computer\x20Modern','fontStyle':_0x201c57(0x1e9),'fontWeight':_0x201c57(0x1df),'fontSize':0x1a}),_0x2b4049=new fabric[(_0x201c57(0x1e1))]({'top':_0x438dff,'left':_0x4f3efe,'width':0x32,'height':0x32,'fill':'#FFEFD5','stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x1ab7bb=new fabric['Text']('2s',{'top':_0x438dff-0x28,'left':0xa+_0x4f3efe+0x64,'stroke':_0x201c57(0x1ec),'strokeUniform':!![],'fontFamily':_0x201c57(0x1ff),'fontStyle':'oblique','fontWeight':'bold','fontSize':0x1a}),_0x13f0fc=new fabric[(_0x201c57(0x1e1))]({'top':_0x438dff,'left':0x64+_0x4f3efe,'width':0x32,'height':0x32,'fill':_0x201c57(0x1f4),'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x3583ca=new fabric[(_0x201c57(0x1e8))]('2p',{'top':_0x438dff-0x28,'left':0xa+_0x4f3efe+0xfa,'stroke':_0x201c57(0x1ec),'strokeUniform':!![],'fontFamily':_0x201c57(0x1ff),'fontStyle':_0x201c57(0x1e9),'fontWeight':_0x201c57(0x1df),'fontSize':0x1a}),_0x4de880=new fabric[(_0x201c57(0x1e1))]({'top':_0x438dff,'left':0xc8+_0x4f3efe,'width':0x96,'height':0x32,'fill':'#FFEFD5','stroke':'#993300','strokeWidth':0x3}),_0x533263=new fabric['Line']([0xfa+_0x4f3efe,_0x438dff,0xfa+_0x4f3efe,_0x438dff+0x32],{'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x49e475=new fabric[(_0x201c57(0x1e6))]([0x12c+_0x4f3efe,_0x438dff,0x12c+_0x4f3efe,_0x438dff+0x32],{'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x16ac6b=new fabric[(_0x201c57(0x1e8))]('3s',{'top':_0x438dff-0x28,'left':0xa+_0x4f3efe+0x190,'stroke':_0x201c57(0x1ec),'strokeUniform':!![],'fontFamily':_0x201c57(0x1ff),'fontStyle':_0x201c57(0x1e9),'fontWeight':_0x201c57(0x1df),'fontSize':0x1a}),_0x2669fe=new fabric[(_0x201c57(0x1e1))]({'top':_0x438dff,'left':0x190+_0x4f3efe,'width':0x32,'height':0x32,'fill':_0x201c57(0x1f4),'stroke':'#993300','strokeWidth':0x3}),_0x32d574=new fabric[(_0x201c57(0x1e8))]('3p',{'top':_0x438dff-0x28,'left':0xa+_0x4f3efe+0x226,'stroke':'black','strokeUniform':!![],'fontFamily':_0x201c57(0x1ff),'fontStyle':'oblique','fontWeight':_0x201c57(0x1df),'fontSize':0x1a}),_0x138b3a=new fabric[(_0x201c57(0x1e1))]({'top':_0x438dff,'left':0x1f4+_0x4f3efe,'width':0x96,'height':0x32,'fill':'#FFEFD5','stroke':'#993300','strokeWidth':0x3}),_0x5732a1=new fabric[(_0x201c57(0x1e6))]([0x226+_0x4f3efe,_0x438dff,0x226+_0x4f3efe,_0x438dff+0x32],{'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x3ee591=new fabric[(_0x201c57(0x1e6))]([0x258+_0x4f3efe,_0x438dff,0x258+_0x4f3efe,_0x438dff+0x32],{'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x926594=new fabric[(_0x201c57(0x1e8))]('3d',{'top':_0x438dff-0x28,'left':0xa+_0x4f3efe+0x320,'stroke':_0x201c57(0x1ec),'strokeUniform':!![],'fontFamily':_0x201c57(0x1ff),'fontStyle':'oblique','fontWeight':_0x201c57(0x1df),'fontSize':0x1a}),_0x37f4e7=new fabric['Rect']({'top':_0x438dff,'left':0x2bc+_0x4f3efe,'width':0xfa,'height':0x32,'fill':_0x201c57(0x1f4),'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x544853=new fabric['Line']([0x2ee+_0x4f3efe,_0x438dff,0x2ee+_0x4f3efe,_0x438dff+0x32],{'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x3fe3fb=new fabric['Line']([0x320+_0x4f3efe,_0x438dff,0x320+_0x4f3efe,_0x438dff+0x32],{'stroke':'#993300','strokeWidth':0x3}),_0x4bfc21=new fabric[(_0x201c57(0x1e6))]([0x352+_0x4f3efe,_0x438dff,0x352+_0x4f3efe,_0x438dff+0x32],{'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x347e36=new fabric['Line']([0x384+_0x4f3efe,_0x438dff,0x384+_0x4f3efe,_0x438dff+0x32],{'stroke':'#993300','strokeWidth':0x3}),_0x9bd9a2=new fabric[(_0x201c57(0x1e8))]('4s',{'top':_0x438dff-0x28,'left':0xa+_0x4f3efe+0x3e8,'stroke':_0x201c57(0x1ec),'strokeUniform':!![],'fontFamily':_0x201c57(0x1ff),'fontStyle':_0x201c57(0x1e9),'fontWeight':'bold','fontSize':0x1a}),_0x581de8=new fabric[(_0x201c57(0x1e1))]({'top':_0x438dff,'left':0x3e8+_0x4f3efe,'width':0x32,'height':0x32,'fill':_0x201c57(0x1f4),'stroke':_0x201c57(0x1fd),'strokeWidth':0x3}),_0x298e15=new fabric[(_0x201c57(0x1fc))]([{'x':0x0,'y':0x14},{'x':0xa,'y':0x0},{'x':0xa,'y':0x28}],{'top':_0x438dff+0x5,'left':_0x4f3efe+0x5,'stroke':_0x201c57(0x1ec),'strokeWidth':0x4,'fill':_0x201c57(0x1e5)});_0x150a11[_0x201c57(0x1e7)](_0x3af84b,_0x2b4049,_0x1ab7bb,_0x13f0fc,_0x3583ca,_0x4de880,_0x533263,_0x49e475,_0x16ac6b,_0x2669fe,_0x32d574,_0x138b3a,_0x5732a1,_0x3ee591,_0x926594,_0x37f4e7,_0x544853,_0x3fe3fb,_0x4bfc21,_0x347e36,_0x9bd9a2,_0x581de8);var _0xbecf0c='',_0x298c4d=0x0,_0xd5a110=0x0;for(var _0x76e22c=0x0;_0x76e22c<_0x3435c2;_0x76e22c++){_0xbecf0c=_0x201c57(0x1ec),_0x76e22c==_0x51c303&&(_0xbecf0c=_0x201c57(0x1ee)),_0x392326[_0x76e22c]==0x1&&(_0x298c4d=_0x76e22c%0x2*0xb4,arriba=_0x438dff+0x32-(_0x76e22c+0x1)%0x2*0x2d,_0xd5a110=_0x4f3efe+0x5+_0x4ac1e9[_0x76e22c]+_0x76e22c%0x2*0x1e,_0x460aec(_0x76e22c,_0xbecf0c,_0x298c4d,arriba,_0xd5a110)),_0x392326[_0x76e22c]==-0x1&&(_0x298c4d=(_0x76e22c+0x1)%0x2*0xb4,arriba=_0x438dff+0x32-_0x76e22c%0x2*0x2d,_0xd5a110=_0x4f3efe+0x14+_0x4ac1e9[_0x76e22c]+(_0x76e22c+0x1)%0x2*0x5,_0x460aec(_0x76e22c,_0xbecf0c,_0x298c4d,arriba,_0xd5a110));}function _0x460aec(_0x331299,_0x5537a4,_0x3b25dc,_0xe29237,_0x3c6deb){const _0x2a1c81=_0x201c57;var _0x27a5ee=new fabric[(_0x2a1c81(0x1fc))]([{'x':0x0,'y':0x14},{'x':0xa,'y':0x0},{'x':0xa,'y':0x28}],{'top':_0xe29237,'left':_0x3c6deb,'stroke':_0x5537a4,'strokeWidth':0x4,'fill':'transparent','angle':_0x3b25dc,'index':_0x331299});_0x150a11[_0x2a1c81(0x1e7)](_0x27a5ee),_0x58a79c[_0x2a1c81(0x1fb)](_0x27a5ee);}}});}function _0x5d1f(_0x46f5c1,_0x8d5076){const _0xc0ffb2=_0xc0ff();return _0x5d1f=function(_0x5d1ff0,_0x41f7ee){_0x5d1ff0=_0x5d1ff0-0x1df;let _0x4260d0=_0xc0ffb2[_0x5d1ff0];return _0x4260d0;},_0x5d1f(_0x46f5c1,_0x8d5076);}function _0xc0ff(){const _0x11ee31=['4947459UnKfke','push','Polyline','#993300','336iOigVC','Computer\x20Modern','bold','Error2','Rect','length','18088lAdvmB','855fSzavP','transparent','Line','add','Text','oblique','*[class=\x27outcome\x20clearfix\x27]','24460cbaIvm','black','13026132WSUykq','red','9779klNyQL','1570184NkCpaB','415665cLshXf','42kPpQKm','7117BCJBce','#FFEFD5','#t1','hide','text','now','270vvSaJg'];_0xc0ff=function(){return _0x11ee31;};return _0xc0ff();}
+    //Este primer script oculará todos los elementos html cuyo nombre sea "elquesoculta"
+function DiagOrbStatic(conf, canvasR, electronElegido){
+    $(document).ready(function() {
+        jQuery("*[name='elqueseoculta']").hide();
+        jQuery("*[class='questiontestslink']").hide();
+        jQuery("*[class='outcome clearfix']").hide();
+        var t0 = 1661983200000; //segundos transcurridos desde epoch hasta 01/09/2022;
+        var year = 31622400000; //aÃ±o bisiesto son 31622400000 ms
+        var fecha = Date.now() - t0;
+        var fechaTope = parseInt(jQuery('#t1').text()); //fechaTope=Date.parse("09/01/2024");
+        var fechaMin = fechaTope - year; //
+        if ((fecha > fechaTope) || (fecha < fechaMin) || (jQuery('#t1').length < 1) || isNaN(parseInt(jQuery('#t1').text()))) {
+            throw "Error2";
+        } else {
+            // Initiate a Canvas instance
+            //var canvasR = new fabric.StaticCanvas("canvasR");
+            var electrones = [];
+            //var electronElegido = -1;
+            const pos = [0, 10, 100, 110, 200, 210, 250, 260, 300, 310, 400, 410, 500, 510, 550, 560, 600, 610, 700, 710, 750, 760, 800, 810, 850, 860, 900, 910, 1000, 1010];
+            //const conf = eval('{#configur#}');
+            const electronesTotales = conf.length;
+            // Initiate a Rect instance
+            const orX = 25;
+            const orY = 100;
+            const txt1s = new fabric.Text('1s', {
+                top: orY - 40,
+                left: 10 + orX,
+                stroke: 'black',
+                strokeUniform: true,
+                fontFamily: 'Computer Modern',
+                fontStyle: 'oblique',
+                fontWeight: 'bold',
+                fontSize: 26
+            });
+            const rec1s = new fabric.Rect({
+                top: orY,
+                left: orX,
+                width: 50,
+                height: 50,
+                fill: '#FFEFD5',
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const txt2s = new fabric.Text('2s', {
+                top: orY - 40,
+                left: 10 + orX + 100,
+                stroke: 'black',
+                strokeUniform: true,
+                fontFamily: 'Computer Modern',
+                fontStyle: 'oblique',
+                fontWeight: 'bold',
+                fontSize: 26
+            });
+            const rec2s = new fabric.Rect({
+                top: orY,
+                left: 100 + orX,
+                width: 50,
+                height: 50,
+                fill: '#FFEFD5',
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const txt2p = new fabric.Text('2p', {
+                top: orY - 40,
+                left: 10 + orX + 250,
+                stroke: 'black',
+                strokeUniform: true,
+                fontFamily: 'Computer Modern',
+                fontStyle: 'oblique',
+                fontWeight: 'bold',
+                fontSize: 26
+            });
+            const rec2p = new fabric.Rect({
+                top: orY,
+                left: 200 + orX,
+                width: 150,
+                height: 50,
+                fill: '#FFEFD5',
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const lin2p1 = new fabric.Line([250 + orX, orY, 250 + orX, orY + 50], {
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const lin2p2 = new fabric.Line([300 + orX, orY, 300 + orX, orY + 50], {
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const txt3s = new fabric.Text('3s', {
+                top: orY - 40,
+                left: 10 + orX + 400,
+                stroke: 'black',
+                strokeUniform: true,
+                fontFamily: 'Computer Modern',
+                fontStyle: 'oblique',
+                fontWeight: 'bold',
+                fontSize: 26
+            });
+            const rec3s = new fabric.Rect({
+                top: orY,
+                left: 400 + orX,
+                width: 50,
+                height: 50,
+                fill: '#FFEFD5',
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const txt3p = new fabric.Text('3p', {
+                top: orY - 40,
+                left: 10 + orX + 550,
+                stroke: 'black',
+                strokeUniform: true,
+                fontFamily: 'Computer Modern',
+                fontStyle: 'oblique',
+                fontWeight: 'bold',
+                fontSize: 26
+            });
+            const rec3p = new fabric.Rect({
+                top: orY,
+                left: 500 + orX,
+                width: 150,
+                height: 50,
+                fill: '#FFEFD5',
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const lin3p1 = new fabric.Line([550 + orX, orY, 550 + orX, orY + 50], {
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const lin3p2 = new fabric.Line([600 + orX, orY, 600 + orX, orY + 50], {
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+
+            const txt3d = new fabric.Text('3d', {
+                top: orY - 40,
+                left: 10 + orX + 800,
+                stroke: 'black',
+                strokeUniform: true,
+                fontFamily: 'Computer Modern',
+                fontStyle: 'oblique',
+                fontWeight: 'bold',
+                fontSize: 26
+            });
+            const rec3d = new fabric.Rect({
+                top: orY,
+                left: 700 + orX,
+                width: 250,
+                height: 50,
+                fill: '#FFEFD5',
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const lin3d1 = new fabric.Line([750 + orX, orY, 750 + orX, orY + 50], {
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const lin3d2 = new fabric.Line([800 + orX, orY, 800 + orX, orY + 50], {
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const lin3d3 = new fabric.Line([850 + orX, orY, 850 + orX, orY + 50], {
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const lin3d4 = new fabric.Line([900 + orX, orY, 900 + orX, orY + 50], {
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+
+            const txt4s = new fabric.Text('4s', {
+                top: orY - 40,
+                left: 10 + orX + 1000,
+                stroke: 'black',
+                strokeUniform: true,
+                fontFamily: 'Computer Modern',
+                fontStyle: 'oblique',
+                fontWeight: 'bold',
+                fontSize: 26
+            });
+            const rec4s = new fabric.Rect({
+                top: orY,
+                left: 1000 + orX,
+                width: 50,
+                height: 50,
+                fill: '#FFEFD5',
+                stroke: '#993300',
+                strokeWidth: 3
+            });
+            const electron1 = new fabric.Polyline([{
+                x: 0,
+                y: 20
+            }, {
+                x: 10,
+                y: 0
+            }, {
+                x: 10,
+                y: 40
+            }], {
+                top: orY + 5,
+                left: orX + 5,
+                stroke: 'black',
+                strokeWidth: 4,
+                fill: 'transparent'
+            });
+
+            // Render the Rect in canvas
+
+            canvasR.add(txt1s, rec1s, txt2s, rec2s, txt2p, rec2p, lin2p1, lin2p2, txt3s, rec3s, txt3p, rec3p, lin3p1, lin3p2, txt3d, rec3d, lin3d1, lin3d2, lin3d3, lin3d4, txt4s, rec4s);
+            var colorL = '';
+            var rotacion = 0;
+            var derecha = 0;
+            for (var i = 0; i < electronesTotales; i++) {
+                colorL = 'black';
+                if (i == electronElegido) {
+                    colorL = 'red';
+                }
+                if (conf[i] == 1) {
+                    rotacion = (i) % 2 * 180;
+                    arriba = orY + 50 - (i + 1) % 2 * 45;
+                    derecha = orX + 5 + pos[i] + (i) % 2 * 30;
+                    anadeElectronDef(i, colorL, rotacion, arriba, derecha);
+                }
+                if (conf[i] == -1) {
+                    rotacion = (i + 1) % 2 * 180;
+                    arriba = orY + 50 - (i) % 2 * 45;
+                    derecha = orX + 20 + pos[i] + (i + 1) % 2 * 5;
+                    anadeElectronDef(i, colorL, rotacion, arriba, derecha);
+                }
+            }
+
+            function anadeElectronDef(i, colorL, rotacion, arriba, derecha) {
+                var electron = new fabric.Polyline(
+                    [{
+                            x: 0,
+                            y: 20
+                        },
+                        {
+                            x: 10,
+                            y: 0
+                        },
+                        {
+                            x: 10,
+                            y: 40
+                        }
+                    ], {
+                        top: arriba,
+                        left: derecha,
+                        stroke: colorL,
+                        strokeWidth: 4,
+                        fill: 'transparent',
+                        angle: rotacion,
+                        index: i
+                    });
+                canvasR.add(electron);
+                electrones.push(electron);
+            }
+
+        }
+    })
+}
+
