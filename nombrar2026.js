@@ -264,7 +264,7 @@
         var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
         var nombre = formulaObj.children()[0].name;
         var inpTxt = jQuery("[name='" + nombre + "']");
-        var text2 = "Respuesta incorrecta. \nEl nombre correcto es...";
+        var text2 = "Respuesta incorrecta."; // \nEl nombre correcto es...";
         var color = 'red';
         var cola = String('{@oxoacido@}');
         text2 = text2 + cola;
