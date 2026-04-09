@@ -1,4 +1,4 @@
-<script>
+
     function dibuja(canvasR, canvasStr) {
         jQuery("*[name='elqueseoculta']").hide();
         jQuery("*[class='questiontestslink']").hide();
