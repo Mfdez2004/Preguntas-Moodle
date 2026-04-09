@@ -1,3 +1,4 @@
+<script>
     function dibuja(canvasR, canvasStr) {
         jQuery("*[name='elqueseoculta']").hide();
         jQuery("*[class='questiontestslink']").hide();
@@ -16,7 +17,7 @@
             var rect = new fabric.Rect({
                 left: 50,
                 top: 100,
-                width: 400,
+                width: 700,
                 height: 50,
                 stroke: "red",
                 strokeWidth: 2,
@@ -133,7 +134,7 @@
 
             //const canvas14ca = new fabric.Canvas("canvas14ca");
             canvasR.setDimensions({
-                width: 600,
+                width: 800,
                 height: 200
             });
             canvasR.uniformScaling = false;
@@ -184,6 +185,7 @@
         }
         //}
     }
+
     function pintaVer(canvasR, canvasStr) {
 
         //        var t0 = 1661983200000; //segundos transcurridos desde epoch hasta 01/09/2022;
@@ -197,6 +199,10 @@
         jQuery("*[class='rightanswer']").hide();
         jQuery("*[class='outcome clearfix']").hide();
         canvasR.clear();
+        canvasR.setDimensions({
+            width: 800,
+            height: 200
+        });
         var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
         var nombre = formulaObj.children()[0].name;
         var inpTxt = jQuery("[name='" + nombre + "']");
@@ -250,6 +256,7 @@
         canvasR.add(rect, text1, txt2);
         //     }
     }
+
     function pintaFal(canvasR, canvasStr) {
         //var t0 = 1661983200000; //segundos transcurridos desde epoch hasta 01/09/2022;
         //var year = 31622400000; //aÃ±o bisiesto son 31622400000 ms
@@ -264,11 +271,16 @@
         var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
         var nombre = formulaObj.children()[0].name;
         var inpTxt = jQuery("[name='" + nombre + "']");
-        var text2 = "Respuesta incorrecta."; // \nEl nombre correcto es...";
+        var text2 = "Respuesta incorrecta.\nEl nombre correcto es...";
         var color = 'red';
         var cola = String('{@oxoacido@}');
         text2 = text2 + cola;
         var resp = formulaObj.children()[2].value;
+        canvasR.setDimensions({
+            width: 800,
+            height: 200
+        });
+
         var rect = new fabric.Rect({
             left: 50,
             top: 100,
@@ -313,5 +325,3 @@
         canvasR.add(rect, text1, txt2);
         //}
     }
-
-
