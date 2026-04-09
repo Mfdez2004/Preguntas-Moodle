@@ -257,7 +257,7 @@
         //     }
     }
 
-    function pintaFal(canvasR, canvasStr) {
+    function pintaFal(canvasR, canvasStr, oxoName) {
         //var t0 = 1661983200000; //segundos transcurridos desde epoch hasta 01/09/2022;
         //var year = 31622400000; //aÃ±o bisiesto son 31622400000 ms
         //var fecha = Date.now() - t0;
@@ -273,7 +273,7 @@
         var inpTxt = jQuery("[name='" + nombre + "']");
         var text2 = "Respuesta incorrecta.\nEl nombre correcto es...";
         var color = 'red';
-        var cola = String('{@oxoacido@}');
+        var cola = oxoName;
         text2 = text2 + cola;
         var resp = formulaObj.children()[2].value;
         canvasR.setDimensions({
