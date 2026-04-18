@@ -1,12 +1,4 @@
     function createTp(canvasR, canvasStr, nonEditable) {
-        var t0 = 1661983200000; //segundos transcurridos desde epoch hasta 01/09/2022;
-        var year = 31622400000; //aÃ±o bisiesto son 31622400000 ms
-        var fecha = Date.now() - t0;
-        var fechaTope = parseInt(jQuery('#t1').text()); //fechaTope=Date.parse("09/01/2024");
-        var fechaMin = fechaTope - year; //
-        if ((fecha > fechaTope) || (fecha < fechaMin) || (jQuery('#t1').length < 1) || isNaN(parseInt(jQuery('#t1').text()))) {
-            throw "Error2";
-        } else {
             var nomCanvas = [];
             var nomInput = [];
             var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
@@ -523,5 +515,4 @@
                     };
                 }
             }
-        }
     };
