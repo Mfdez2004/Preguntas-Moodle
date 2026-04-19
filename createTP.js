@@ -1,4 +1,4 @@
-    function createTp(canvasR, canvasStr, nonEditable) {
+    function createTp(canvasR, canvasStr, nonEditable, form) {
             var nomCanvas = [];
             var nomInput = [];
             var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
@@ -60,7 +60,7 @@
                 txt2.hasBorders = false;
                 canvasR.add(txt2);
                 if (correcto == false) {
-                    var respCorr = String('{#form#}');
+                    var respCorr = form;
                     izquierda = 30 + txt2.width + 5;
                     console.log(izquierda);
                     arriba = 450;
