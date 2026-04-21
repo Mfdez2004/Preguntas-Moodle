@@ -37,7 +37,7 @@
                 }
                 //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');;
                 //var resp = formulaObj.children()[0].value;
-                //var resp = document.getElementById('formula').innerHTML
+                var resp = inpTxt.value;
                 var offset = 0;
                 var tamano = 26;
                 var arriba = 30;
