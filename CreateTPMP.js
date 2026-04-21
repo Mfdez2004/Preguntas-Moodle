@@ -5,7 +5,7 @@
             var respuestaCorr = "";
             //var nombre = formulaObj.children()[0].name;
             //var inpTxt = jQuery("[name='" + nombre + "']");
-
+            let inpTxt2=inpTxt.parentElement.children[1].children[0].children[2];
             //results1 = document.getElementById('results-canvasR');
             var modeReview = nonEditable;
             var sera = new fabric.Text("Será...", {
@@ -168,6 +168,7 @@
                         }
                         //document.getElementById('formula').innerHTML = userAns;
                         inpTxt.value=userAns;
+                        inpTxt2.value=userAns;
                         //console.log(posicion4);
                     }
                 };
@@ -273,6 +274,7 @@
                                 pulsacion.push(prev + valor + post);
                                 pulsacion2.push(prev2 + valor + post2);
                                 inpTxt.value=userAns;
+                                inpTxt2.value=userAns;
                                 var tamano = 22,
                                     offset = +10;
                                 if (group2.orden >= 8) {
@@ -509,6 +511,7 @@
                         });
                         canvasR.add(txt);
                         inpTxt.value=userAns;
+                        inpTxt2.value=userAns;
                         posicion4.push(izquierda);
                         izquierda += txt.width;
                         console.log(izquierda);
