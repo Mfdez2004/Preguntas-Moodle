@@ -3,7 +3,7 @@
             var nomInput = [];
             //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
             var respuestaCorr = "";
-            ((var nombre = formulaObj.children()[0].name;
+            //var nombre = formulaObj.children()[0].name;
             //var inpTxt = jQuery("[name='" + nombre + "']");
 
             //results1 = document.getElementById('results-canvasR');
