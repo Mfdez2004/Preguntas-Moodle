@@ -1,9 +1,9 @@
-    function createTp(canvasR, canvasStr, nonEditable, inpTxt) {
+    function createTp(canvasR, canvasStr, nonEditable, formula, inpTxt) {
             var nomCanvas = [];
             var nomInput = [];
-            var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
+            //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
             var respuestaCorr = "";
-            var nombre = formulaObj.children()[0].name;
+            ((var nombre = formulaObj.children()[0].name;
             //var inpTxt = jQuery("[name='" + nombre + "']");
 
             //results1 = document.getElementById('results-canvasR');
@@ -29,14 +29,14 @@
                 var correcto = false;
                 var text2 = "Respuesta incorrecta. La fórmula correcta es ...";
                 var color = 'red';
-                var correccion = jQuery('[id="formula-' + canvasStr + '"]').parent().parent().parent()[0].lastChild.lastElementChild.children[0].firstChild.className;
+                var correccion="correct"; // = jQuery('[id="formula-' + canvasStr + '"]').parent().parent().parent()[0].lastChild.lastElementChild.children[0].firstChild.className;
                 if (correccion == "correct") {
                     text2 = "Respuesta correcta";
                     color = 'green';
                     correcto = true;
                 }
-                var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');;
-                var resp = formulaObj.children()[0].value;
+                //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');;
+                //var resp = formulaObj.children()[0].value;
                 //var resp = document.getElementById('formula').innerHTML
                 var offset = 0;
                 var tamano = 26;
@@ -60,7 +60,7 @@
                 txt2.hasBorders = false;
                 canvasR.add(txt2);
                 if (correcto == false) {
-                    var respCorr = form;
+                    var respCorr = formula;
                     izquierda = 30 + txt2.width + 5;
                     console.log(izquierda);
                     arriba = 450;
