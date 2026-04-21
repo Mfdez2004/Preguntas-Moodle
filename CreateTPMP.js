@@ -29,8 +29,8 @@
                 var correcto = false;
                 var text2 = "Respuesta incorrecta. La fórmula correcta es ...";
                 var color = 'red';
-                var correccion="correct"; // = jQuery('[id="formula-' + canvasStr + '"]').parent().parent().parent()[0].lastChild.lastElementChild.children[0].firstChild.className;
-                if (correccion == "correct") {
+                var correccion=inpTxt.parentElement.children[3].children[0].title; // = jQuery('[id="formula-' + canvasStr + '"]').parent().parent().parent()[0].lastChild.lastElementChild.children[0].firstChild.className;
+                if (correccion == "Correcta") {
                     text2 = "Respuesta correcta";
                     color = 'green';
                     correcto = true;
