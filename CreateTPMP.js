@@ -24,7 +24,7 @@
             });
             sera.hasBorders = false;
             canvasR.add(sera);
-            if (inpTxt.attr("readonly") !== undefined) {
+            if (nonEditable) {
                 modeReview = true;
                 var correcto = false;
                 var text2 = "Respuesta incorrecta. La fórmula correcta es ...";
