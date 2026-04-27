@@ -194,9 +194,9 @@
             width: 800,
             height: 200
         });
-        var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
-        var nombre = formulaObj.children()[0].name;
-        var inpTxt = jQuery("[name='" + nombre + "']");
+        //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
+        //var nombre = formulaObj.children()[0].name;
+        //var inpTxt = jQuery("[name='" + nombre + "']");
         text2 = "Respuesta correcta";
         color = 'green';
         //var resp = formulaObj.children()[2].value;
