@@ -177,7 +177,7 @@
         //}
     }
 
-    function pintaVer(canvasR, canvasStr) {
+    function pintaVer(canvasR, canvasStr, inpTxt) {
 
         //        var t0 = 1661983200000; //segundos transcurridos desde epoch hasta 01/09/2022;
         //       var year = 31622400000; //aÃ±o bisiesto son 31622400000 ms
@@ -199,7 +199,8 @@
         var inpTxt = jQuery("[name='" + nombre + "']");
         text2 = "Respuesta correcta";
         color = 'green';
-        var resp = formulaObj.children()[2].value;
+        //var resp = formulaObj.children()[2].value;
+        var resp = inpTxt.value;
         var rect = new fabric.Rect({
             left: 50,
             top: 100,
