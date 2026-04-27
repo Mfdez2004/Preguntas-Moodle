@@ -1,10 +1,10 @@
-    function dibuja(canvasR, canvasStr, inpTxt, inpTxt10) {
+    function dibuja(canvasR, canvasStr, nonEditable, inpTxt, inpTxt10) {
         jQuery("*[name='elqueseoculta']").hide();
         jQuery("*[class='questiontestslink']").hide();
         //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
         //var nombre = formulaObj.children()[0].name;
         //var inpTxt = jQuery("[name='" + nombre + "']");
-        if (inpTxt.attr("readonly") == undefined) {
+        if !(nonEditable) {
             var rect = new fabric.Rect({
                 left: 50,
                 top: 100,
