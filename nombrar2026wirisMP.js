@@ -267,7 +267,7 @@
         var color = 'red';
         var cola = oxoName;
         text2 = text2 + cola;
-        var resp = formulaObj.children()[2].value;
+        var resp = inpTxt.value;//formulaObj.children()[2].value;
         canvasR.setDimensions({
             width: 800,
             height: 200
