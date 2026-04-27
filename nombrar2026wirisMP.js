@@ -267,7 +267,8 @@
         var color = 'red';
         var cola = oxoName;
         text2 = text2 + cola;
-        var resp = inpTxt.value;//formulaObj.children()[2].value;
+        //var resp = inpTxt.value;//formulaObj.children()[2].value;
+        var resp = (inpTxt && inpTxt.value) ? inpTxt.value : "";
         canvasR.setDimensions({
             width: 800,
             height: 200
@@ -298,7 +299,7 @@
             backgroundColor: "#ffffff",
             borderColor: "#9181fc"
         });
-        text1.text = resp
+        text1.text = resp ;
         var txt2 = new fabric.Text(text2, {
             top: 10,
             left: 30,
