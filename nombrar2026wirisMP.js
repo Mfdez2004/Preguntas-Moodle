@@ -4,7 +4,7 @@
         //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
         //var nombre = formulaObj.children()[0].name;
         //var inpTxt = jQuery("[name='" + nombre + "']");
-        if !(nonEditable) {
+        if (!nonEditable) {
             var rect = new fabric.Rect({
                 left: 50,
                 top: 100,
