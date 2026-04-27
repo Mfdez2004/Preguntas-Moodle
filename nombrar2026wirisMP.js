@@ -1,4 +1,4 @@
-    function dibuja(canvasR, canvasStr, inpTxt) {
+    function dibuja(canvasR, canvasStr, inpTxt, inpTxt10) {
         jQuery("*[name='elqueseoculta']").hide();
         jQuery("*[class='questiontestslink']").hide();
         //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
