@@ -96,9 +96,15 @@
                 texto = texto2[0].toLowerCase() + sep + cola;
                 texto = texto.trim().replace(/\s\s+/g, ' ');
                 texto = texto.replaceAll(" (", "(");
-                texto= texto.replace("cinc", "zinc");
-                texto= texto.replace("circonio", "zirconio");
-                texto= texto.replace("telurio", "teluro");
+                const listaMal = ["cinc", "circonio", "telurio", "volframio"];
+                const listaBien = ["zinc", "zirconio", "teluro", "wolframio"];
+                for (let i=0; i<listaMal.length; i++) {
+                    texto= texto.replace(listaMal[i], listaBien[i]);
+                }
+                //texto= texto.replace("cinc", "zinc");
+                //texto= texto.replace("circonio", "zirconio");
+                //texto= texto.replace("telurio", "teluro");
+                //texto= texto.replace("volframio", "wolframio");
                 texto = texto.replaceAll(") ", ")");
                 var regex = /[^a-zA-Z\(\)\[\] áéíóúÁÉÍÓÚñÑüÜ]/g;
                 var texto2 = texto.replaceAll(regex, "");
