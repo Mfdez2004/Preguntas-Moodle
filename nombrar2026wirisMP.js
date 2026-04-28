@@ -106,7 +106,7 @@
                 //texto= texto.replace("telurio", "teluro");
                 //texto= texto.replace("volframio", "wolframio");
                 texto = texto.replaceAll(") ", ")");
-                var regex = /[^a-zA-Z\(\)\[\] áéíóúÁÉÍÓÚñÑüÜ]/g;
+                var regex = /[^a-zA-Z\(\)\[\] áéíóúÁÉÍÓÚñÑüÜ0-9\+\-]/g
                 var texto2 = texto.replaceAll(regex, "");
                 var prueba = texto.split(" ");
                 const palabrasConTilde = ["Hidrógeno", "Nitrógeno ", "Oxígeno ", "Flúor ", "Neón ", "Fósforo ", "Argón ", "Níquel ", "Arsénico ", "Xenón ", "Radón ", "Ácido", "Óxido", "Peróxido", "Hidróxido", "clórico", "perclórico", "brómico", "perbrómico", "yódico", "peryódico", "sulfúrico", "selénico", "telúrico", "nítrico", "fosfórico", "arsénico", "carbónico", "silícico", "mangánico", "permangánico", "crómico", "dicrómico"];
