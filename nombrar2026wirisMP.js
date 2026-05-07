@@ -1,4 +1,5 @@
-    function dibuja(canvasR, canvasStr, nonEditable, inpTxt, inpTxt10) {
+    const ancho=800;
+function dibuja(canvasR, canvasStr, nonEditable, inpTxt, inpTxt10) {
         jQuery("*[name='elqueseoculta']").hide();
         jQuery("*[class='questiontestslink']").hide();
         //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
@@ -8,8 +9,8 @@
             var rect = new fabric.Rect({
                 left: 50,
                 top: 100,
-                width: 900,
-                height: 50,
+                width: ancho-100,
+                height: 100,
                 stroke: "red",
                 strokeWidth: 2,
                 originX: "left",
@@ -23,7 +24,7 @@
             var textbox = new fabric.Textbox("Nombre de la sustancia", {
                 left: rect.left + 20,
                 top: rect.top + 10,
-                width: rect.width - 45,
+                width: 800, //rect.width - 45,
                 height: 30,
                 fontSize: 24,
                 fill: "black",
@@ -134,7 +135,7 @@
 
             //const canvas14ca = new fabric.Canvas("canvas14ca");
             canvasR.setDimensions({
-                width: 800,
+                width: 1200,
                 height: 200
             });
             canvasR.uniformScaling = false;
@@ -200,7 +201,7 @@
         jQuery("*[class='outcome clearfix']").hide();
         canvasR.clear();
         canvasR.setDimensions({
-            width: 800,
+            width: ancho,
             height: 200
         });
         //var formulaObj = jQuery('[id="formula-' + canvasStr + '"]');
@@ -213,7 +214,7 @@
         var rect = new fabric.Rect({
             left: 50,
             top: 100,
-            width: 400,
+            width: ancho-105,
             height: 50,
             stroke: "red",
             strokeWidth: 2,
@@ -279,14 +280,14 @@
         //var resp = inpTxt.value;//formulaObj.children()[2].value;
         var resp = (inpTxt && inpTxt.value) ? inpTxt.value : "";
         canvasR.setDimensions({
-            width: 800,
+            width: ancho,
             height: 200
         });
 
         var rect = new fabric.Rect({
             left: 50,
             top: 100,
-            width: 400,
+            width: ancho-100,
             height: 50,
             stroke: "red",
             strokeWidth: 2,
