@@ -105,7 +105,7 @@
                 //texto= texto.replace("circonio", "zirconio");
                 //texto= texto.replace("telurio", "teluro");
                 //texto= texto.replace("volframio", "wolframio");
-                texto = texto.replaceAll(") ", ")");
+                //texto = texto.replaceAll(") ", ")");
                 var regex = /[^a-zA-Z\(\)\[\] áéíóúÁÉÍÓÚñÑüÜ0-9\+\-]/g
                 var texto2 = texto.replaceAll(regex, "");
                 var prueba = texto.split(" ");
