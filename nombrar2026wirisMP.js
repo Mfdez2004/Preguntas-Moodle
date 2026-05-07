@@ -8,7 +8,7 @@
             var rect = new fabric.Rect({
                 left: 50,
                 top: 100,
-                width: 700,
+                width: 900,
                 height: 50,
                 stroke: "red",
                 strokeWidth: 2,
